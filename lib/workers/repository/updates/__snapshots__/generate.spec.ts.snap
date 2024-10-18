@@ -8,6 +8,7 @@ exports[`workers/repository/updates/generate generateBranchConfig() handles @typ
   "commitMessage": "",
   "constraints": {},
   "depName": "some-dep",
+  "depTypes": undefined,
   "dependencyDashboardApproval": false,
   "dependencyDashboardPrApproval": false,
   "displayFrom": "",
@@ -28,8 +29,8 @@ exports[`workers/repository/updates/generate generateBranchConfig() handles @typ
   "upgrades": [
     {
       "branchName": "some-branch",
-      "commitMessage": "",
       "depName": "some-dep",
+      "depTypes": undefined,
       "displayFrom": "",
       "displayPending": "",
       "displayTo": "0.6.0",
@@ -46,9 +47,9 @@ exports[`workers/repository/updates/generate generateBranchConfig() handles @typ
     {
       "branchName": "some-branch",
       "commitBodyTable": true,
-      "commitMessage": "",
       "datasource": "npm",
       "depName": "some-dep",
+      "depTypes": undefined,
       "displayFrom": "",
       "displayPending": "",
       "displayTo": "1.0.0",
@@ -64,8 +65,8 @@ exports[`workers/repository/updates/generate generateBranchConfig() handles @typ
     },
     {
       "branchName": "some-branch",
-      "commitMessage": "",
       "depName": "@types/some-dep",
+      "depTypes": undefined,
       "displayFrom": "",
       "displayPending": "",
       "displayTo": "0.5.7",
@@ -92,6 +93,7 @@ exports[`workers/repository/updates/generate generateBranchConfig() handles @typ
   "constraints": {},
   "datasource": "npm",
   "depName": "some-dep",
+  "depTypes": undefined,
   "dependencyDashboardApproval": false,
   "dependencyDashboardPrApproval": false,
   "displayFrom": "",
@@ -111,9 +113,9 @@ exports[`workers/repository/updates/generate generateBranchConfig() handles @typ
     {
       "branchName": "some-branch",
       "commitBodyTable": true,
-      "commitMessage": "",
       "datasource": "npm",
       "depName": "some-dep",
+      "depTypes": undefined,
       "displayFrom": "",
       "displayPending": "",
       "displayTo": "0.6.0",
@@ -127,9 +129,9 @@ exports[`workers/repository/updates/generate generateBranchConfig() handles @typ
     {
       "branchName": "some-branch",
       "commitBodyTable": true,
-      "commitMessage": "",
       "datasource": "npm",
       "depName": "some-dep",
+      "depTypes": undefined,
       "displayFrom": "",
       "displayPending": "",
       "displayTo": "1.0.0",
@@ -143,11 +145,11 @@ exports[`workers/repository/updates/generate generateBranchConfig() handles @typ
     {
       "branchName": "some-branch",
       "commitBodyTable": true,
-      "commitMessage": "",
       "currentValue": "0.5.7",
       "currentVersion": "0.5.7",
       "datasource": "npm",
       "depName": "@types/some-dep",
+      "depTypes": undefined,
       "displayFrom": "0.5.7",
       "displayPending": "",
       "displayTo": "0.5.8",
@@ -171,6 +173,7 @@ exports[`workers/repository/updates/generate generateBranchConfig() handles lock
   "branchName": "some-branch",
   "commitMessage": "",
   "constraints": {},
+  "depTypes": undefined,
   "dependencyDashboardApproval": false,
   "dependencyDashboardPrApproval": false,
   "displayFrom": "",
@@ -187,7 +190,7 @@ exports[`workers/repository/updates/generate generateBranchConfig() handles lock
   "upgrades": [
     {
       "branchName": "some-branch",
-      "commitMessage": "",
+      "depTypes": undefined,
       "displayFrom": "",
       "displayPending": "",
       "displayTo": "",
@@ -210,6 +213,7 @@ exports[`workers/repository/updates/generate generateBranchConfig() handles lock
   "constraints": {},
   "currentValue": "^1.0.0",
   "currentVersion": "1.0.0",
+  "depTypes": undefined,
   "dependencyDashboardApproval": false,
   "dependencyDashboardPrApproval": false,
   "displayFrom": "1.0.0",
@@ -231,9 +235,9 @@ exports[`workers/repository/updates/generate generateBranchConfig() handles lock
   "upgrades": [
     {
       "branchName": "some-branch",
-      "commitMessage": "",
       "currentValue": "^1.0.0",
       "currentVersion": "1.0.0",
+      "depTypes": undefined,
       "displayFrom": "1.0.0",
       "displayPending": "",
       "displayTo": "1.0.1",
@@ -251,5 +255,3 @@ exports[`workers/repository/updates/generate generateBranchConfig() handles lock
   ],
 }
 `;
-
-exports[`workers/repository/updates/generate generateBranchConfig() handles upgrades: some-title (patch) 1`] = `"some-title (patch)"`;

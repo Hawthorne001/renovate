@@ -14,7 +14,6 @@ export interface HostRule {
   headers?: Record<string, string>;
   maxRetryAfter?: number;
 
-  dnsCache?: boolean;
   keepAlive?: boolean;
   artifactAuth?: string[] | null;
   httpsCertificateAuthority?: string;
@@ -25,9 +24,10 @@ export interface HostRule {
   hostType?: string;
   matchHost?: string;
   resolvedHost?: string;
+  readOnly?: boolean;
 }
 
 export type CombinedHostRule = Omit<
   HostRule,
-  'encrypted' | 'hostType' | 'matchHost' | 'resolvedHost'
+  'encrypted' | 'hostType' | 'matchHost' | 'resolvedHost' | 'readOnly'
 >;
